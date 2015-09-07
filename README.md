@@ -1,6 +1,9 @@
 xser - it server
 ======
-test 
+
+Client
+--------
+[xcli](https://github.com/paladim/xcli).
 
 Run
 -----
@@ -19,7 +22,4 @@ erl -pa ebin
 eunit:test(xser).
 
 
-Client
---------
-[xcli](https://github.com/paladim/xcli).
 
