@@ -1,0 +1,17 @@
+{application, xser,
+ [
+  {description, "xser"},
+  {vsn, "1"},
+  {modules, [
+  	xser_app,
+  	xser_sup,
+  	xser
+  ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { xser_app, []}},
+  {env, []}
+ ]}.
