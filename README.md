@@ -17,9 +17,4 @@ Test
 -----
 rebar compile
 
-erl -pa ebin
-
-eunit:test(xser).
-
-
-
+rebar eunit
